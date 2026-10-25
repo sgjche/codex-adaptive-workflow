@@ -1,0 +1,29 @@
+{
+  "files": {
+    ".gitignore": "98779b60e9fd2b00cf1a2a7f2ca6fbc29a325eb017fbbe7ea6623fcb94140697",
+    "LICENSE": "94a0360601a417306e2d3d126043c5b2636d2d1d540a5a0b7482eb3dbf920cff",
+    "README.md": "4717c8760429330b3c2532ce8c44d501c5db6f1efe5219a224af167842ce1df0",
+    "VALIDATION.md": "9cbec22e3e3bba7a75d43550e4c8be5718f8f5186407af08a2fa1a215b40796d",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "policy/AGENTS.md": "c9379c32c42d1c3d7d4c89d837f7bc215cb76e48a6c27d657908243192db9ce1",
+    "skills/conversation-alignment/LICENSE": "94a0360601a417306e2d3d126043c5b2636d2d1d540a5a0b7482eb3dbf920cff",
+    "skills/conversation-alignment/SKILL.md": "d371a1b2bb5e3a22c886822621d5f1c6561f6d692a95ca54a049d53b8e493d3a",
+    "skills/conversation-alignment/assets/PROJECT_BRIEF.template.md": "7d3f355fed4de2c19dc175a7f84d928e65df5751b3a3efb8a5d158276f500231",
+    "skills/decision-interview/LICENSE": "e696e51e63133811b39048a51741a0ad064a3f73fc7292f4d0876def01a54a36",
+    "skills/decision-interview/SKILL.md": "1ca9f8eb6451d3fbcf002573fe56ce825fa936bdbbcc3270bcc2f0d321bef9cd",
+    "skills/decision-interview/agents/openai.yaml": "312930bd013b36ddf748b76a8b873d321c2b7e61e96f3cacb39a15068a90eb52",
+    "skills/evidence-checkpoint/LICENSE": "e696e51e63133811b39048a51741a0ad064a3f73fc7292f4d0876def01a54a36",
+    "skills/evidence-checkpoint/SKILL.md": "1ce5f46ceae4fa0ed922acae3b6af4130321ea6ed1c2d845bd6cf41621377fa0",
+    "skills/evidence-checkpoint/agents/openai.yaml": "32895f1f64e1bb0a8337288aaf924cee789d63cd10eea89cd8d622b8675c3463",
+    "skills/find-unknowns/LICENSE": "e696e51e63133811b39048a51741a0ad064a3f73fc7292f4d0876def01a54a36",
+    "skills/find-unknowns/SKILL.md": "ea35f0a6cc34a01e569f844bd620c1848bc367080abb34ba99c7b09ac3c5edd2",
+    "skills/find-unknowns/agents/openai.yaml": "cee52c5885b5e7ffad6f1c4586d049f4fbab9144b1559f31b274800d2dd58d44",
+    "skills/find-unknowns/references/assumption-test.md": "c7a0c45f4fa89655bf9cd1d68641552ba5dab87bc3f0ab64d2755584a94ad6a8",
+    "tests/test_workflow.py": "ea0bd4700e46b49ac25ab11b2a0d4e23e4ccde77d620e4e54907b1e87f6a2e7e",
+    "tools/build_release.py": "ebfa9197c2963507edaa56cdfb2e3a3107dc92d2f65c5251d33ffff194efaef5",
+    "workflow.py": "f51c244e649f91863cbc45a4c2dfa2511d5c150cebe80d966e8fa9784ff97e56"
+  },
+  "package": "codex-adaptive-workflow",
+  "schema": 1,
+  "version": "0.1.0"
+}
