@@ -1,0 +1,5 @@
+interface:
+  display_name: "Find Unknowns"
+  short_description: "Check the assumptions that could change a decision"
+policy:
+  allow_implicit_invocation: true
