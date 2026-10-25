@@ -1,0 +1,5 @@
+interface:
+  display_name: "Evidence Checkpoint"
+  short_description: "Match completion claims to the actual evidence"
+policy:
+  allow_implicit_invocation: true
