@@ -1,0 +1,5 @@
+interface:
+  display_name: "Decision Interview"
+  short_description: "Clarify choices that would change the result"
+policy:
+  allow_implicit_invocation: true
