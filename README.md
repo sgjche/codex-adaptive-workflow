@@ -6,16 +6,22 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB)](docs/INSTALLATION.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-16A34A)](LICENSE)
 
+Codex Adaptive Workflow grew out of [Latent Space’s discussion of Claude Code](https://latent.space/p/thariq)
+with **swyx** and **Thariq Shihipar** of Anthropic—and a familiar frustration:
+an agent can keep solving local problems while losing sight of the outcome
+you wanted.
+
+This **independent project inspired by that discussion** adapts ideas about
+clarification, finding unknowns, and reassessing next steps into four focused
+Codex skills. A shared project brief preserves context, while selective checks
+help surface consequential questions and inspect important claims. You
+continue to guide the conversation.
+
 ![Four focused skills: alignment, decisions, unknowns, and evidence](docs/assets/overview.svg)
 
-A lightweight set of four Codex skills for projects that span days, changing
-requirements, and many conversations. Carry forward the agreed outcome, surface
-the decisions that matter, and check important claims against evidence while
-you guide the work.
-
 [Quick start](#quick-start) · [Use cases](#use-cases) ·
-[Example prompts](docs/EXAMPLES.md) · [Installation guide](docs/INSTALLATION.md) ·
-[Contributing](CONTRIBUTING.md)
+[Inspiration](#inspiration-and-design-choices) · [Example prompts](docs/EXAMPLES.md) ·
+[Installation guide](docs/INSTALLATION.md) · [Contributing](CONTRIBUTING.md)
 
 ## Why this exists
 
@@ -128,6 +134,31 @@ human request.
 
 Selection and notices are model-guided, so they can be missed or overused.
 [Report an example](CONTRIBUTING.md#reporting-a-workflow-problem) if that happens.
+
+## Inspiration and design choices
+
+The [Latent Space interview, *Claude Code’s Next Era*](https://latent.space/p/thariq)
+features **Thariq Shihipar** of Anthropic in conversation with **swyx** and
+Vibhu. Around **42–44 minutes**, swyx discusses his next-step skill and
+reminders about the user’s goal; Thariq explores how a forked agent could
+provide supervisor-style guidance.
+
+This is an independent adaptation of ideas from that discussion. Four choices
+shape the Codex workflow:
+
+- **A shared brief for continuity.** Recover the latest endorsed outcome,
+  accepted decisions, and relevant evidence from a concise project brief.
+- **The user guides each next step.** Follow the latest explicit steering,
+  preserve accepted work, and return control when the current request is done.
+- **Checks are selected for a material need.** Clarify a consequential choice,
+  investigate an important assumption, or inspect a delivery claim. Prefer
+  an ordinary question or check when it suffices.
+- **Independent reviewers stay manual.** Additional reviewer agents require
+  an explicit human request.
+
+The supervisor architecture discussed in the episode remains a separate
+direction. The current package implements the shared brief and skill checks
+described here.
 
 ## Documentation
 
